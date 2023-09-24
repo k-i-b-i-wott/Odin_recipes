@@ -1,0 +1,30 @@
+*
+{
+    color: darkcyan;
+    margin: 30px;
+}
+h1
+{
+    margin-top: -50px;
+    color: black;
+}
+h2{
+    color: black;
+}
+.button
+{
+    background-color: blue;
+    transform: perspective(10px,20pxS);
+}
+.image
+{
+    background-color: forestgreen;
+    width: 350px;
+    height: 350px;
+    border-radius: 70px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}

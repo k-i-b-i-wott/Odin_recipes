@@ -1,0 +1,66 @@
+*
+{
+    background-color: bisque;
+    text-align: justify;
+    font-size: 20px;
+    font-style: oblique;
+    
+
+}
+h1{
+    color: rgb(255, 85, 0);
+    text-align: center;
+    text-justify: distribute;
+
+}
+h2{
+    text-align: center;
+    color: chocolate;
+}
+.Turkey{
+    width: 300px;
+    height: 350px;
+    border-radius: 50px;
+    color: crimson;
+    background-color: blueviolet;
+    text-align: center;
+    margin-left: 40px;
+
+}
+.Turkey img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+}
+.crockpot
+{
+    width: 300px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 70px;
+    margin-left: 450px;
+    margin-top: -350px;
+    text-align: center;
+}
+.crockpot img{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+}
+.Elote
+{
+    height: 350px;
+    width: 300px;
+    color: blue;
+    background-color: chartreuse;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: -350px;
+}
+.Elote img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
