@@ -8,7 +8,7 @@
 
 }
 h1{
-    color: rgb(255, 85, 0);
+    color: rgb(7, 7, 6);
     text-align: center;
     text-justify: distribute;
 
@@ -32,6 +32,7 @@ h2{
     width: 300px;
     height: 300px;
     border-radius: 70px;
+    margin-top: 6px;
 }
 .crockpot
 {
@@ -47,6 +48,7 @@ h2{
     width: 300px;
     height: 300px;
     border-radius: 70px;
+    margin-top: 6px;
 }
 .Elote
 {
@@ -63,4 +65,57 @@ h2{
     width: 300px;
     height: 300px;
     border-radius: 50px;
+    margin-top: 6px;
+}
+.Tamarind
+{
+    width: 320px;
+    height: 350px;
+    border-radius: 70px;
+    background-color: blue;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.Tamarind img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.Fryer
+{
+    background-color: chartreuse;
+    width: 310px;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: -340px;
+    border-radius: 50px;
+    text-align: center;
+}
+.Fryer img 
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+.boda
+{
+    background-color: cyan;
+    width: 320px;
+    height: 350px;
+    border-radius: 70px;
+    margin-left: 850px;
+    margin-top: -350px;
+    text-align: center;
+}
+.boda img 
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    margin-left: 5px; 
+    margin-top: 10px;
 }

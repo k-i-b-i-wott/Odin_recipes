@@ -1,0 +1,21 @@
+*
+{
+    color: black;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+.boda
+{
+    background-color: blue;
+    width: 320px;
+    height: 320px;
+    border-radius: 50px;
+}
+.boda img 
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+}

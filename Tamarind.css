@@ -1,0 +1,31 @@
+*
+{
+    margin: 30px;
+    color: black;
+    background-color: darkgray;
+
+}
+h1 
+{
+    color: black;
+    
+}
+h2
+{
+    color: black;
+}
+.image
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 70px;
+    background-color: darkmagenta;
+    
+}
+.image img 
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    margin-left: 1px;
+}
