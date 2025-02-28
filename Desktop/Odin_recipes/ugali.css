@@ -1,0 +1,21 @@
+*{
+    background-position: center;
+    width: auto;
+    background-size: contain;
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    
+}
+footer
+{
+    color: brown;
+    font: 300;
+    font-weight: bold;
+
+}
+body
+{
+    opacity: 30px;
+}

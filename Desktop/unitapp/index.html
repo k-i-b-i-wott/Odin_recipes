@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit App</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="header">
+        <h1>CONVERT FROM ANY UNIT OT ALL UNITS</h1>
+      </div>
+      <div class="form" >
+        <form >
+          <input type="number" id="inputValue" placeholder="value" required>
+            <select name="" id="inputUnit" required >
+            <option value="" selected>--Base Unit--</option>
+            <option value="millimeters" id="inputUnit">Millimeters</option>
+            <option value="centimeters" id="inputUnit">Centimeters</option>
+            <option value="decimeters" id="inputUnit">Decimeters</option>
+            <option value="meters" id="inputUnit">Meters</option>
+            <option value="decameters" id="inputUnit">Decameters</option>
+            <option value="hectometers" id="inputUnit">Hectometers</option>
+            <option value="kilometer" id="inputUnit">Kilometer</option>
+            </select>
+
+            <button id="convertbtn" type="button" onclick="converter()">convert</button>
+
+
+        </form>
+      </div>
+    </div>
+    <div id="outputValue">
+
+      
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

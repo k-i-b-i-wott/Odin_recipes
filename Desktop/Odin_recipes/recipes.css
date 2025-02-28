@@ -1,0 +1,25 @@
+*
+{   
+    background-position: center;
+    background-size: cover;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+    background-image: url(images/chef.jpeg);
+    background-repeat:no-repeat;
+    background-size: 1300px;
+}
+body
+{
+    font-size: medium;
+    position: fixed;
+    font-style: italic;
+    font-weight: bolder;
+    margin: center;
+}
+.black
+{
+    size: 30px;
+    width: 200px;
+    height: 200px;
+    position: bottom-left;
+}

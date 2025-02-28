@@ -1,0 +1,58 @@
+body,html{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#app{
+ 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ place-items: center;
+
+ gap: 2rem;
+ background-color: rgba(234, 199, 215, 0.626);
+ padding-bottom: 4rem;
+
+}
+
+
+#cat-quotes{
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+input{
+  padding: 0.5rem;
+  width: 12rem;
+}
+
+button{
+  height: 2rem;
+  border-radius: .2rem;
+  background-color:rgb(224, 157, 188) ;
+}
+ @media screen and (max-width: 600px) {
+  #app{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  #cat-quotes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: smaller;
+  }
+  
+ }

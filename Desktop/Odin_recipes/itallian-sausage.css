@@ -1,0 +1,32 @@
+*
+{
+    background-position: center;
+    background-size: 700px;
+    background-color: burlywood;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+
+}
+body
+{
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+h3
+{
+    font-weight: 900;
+    word-spacing: 0ch;
+}
+.footer
+{
+   color: crimson;
+   
+}
+.itallian
+{
+    size: 20px;
+    width: 200px;
+    height: 200px;
+    opacity: 1000px;
+}

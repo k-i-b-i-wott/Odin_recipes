@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <h2>The Cats App</h2>
+      </div>
+
+      <div id="cat-quotes">
+        <div class="quote">
+          <p>Number of cat facts (maximum 50)</p>
+          <form action="">
+            <input type="number" name="quote" id="quote" placeholder="number of cats facts (max 50)" max="50" min="1">
+            <button id="factbtn">Submit</button>
+          </form>
+        </div>
+       <div class="imgsection">
+        <p>Number of Cats Images (maximum 10)</p>
+        <form action="">
+          <input type="number" name="catImg" id="catImg" placeholder="number of cat images (max 10)" max="10" min="1">
+          <button id="imgbtn">Submit</button>
+        </form>
+       
+       </div>
+      </div>  
+    </div>
+    <div id="outputValue">
+      
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

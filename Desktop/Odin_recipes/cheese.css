@@ -1,0 +1,11 @@
+*
+{
+    background-color: cadetblue;
+    backface-visibility: hidden;
+}
+.img
+{   
+    size: 10px;
+    width: 200px;
+    height: 200px;
+}
