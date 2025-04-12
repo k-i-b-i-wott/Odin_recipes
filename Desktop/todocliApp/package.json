@@ -1,0 +1,25 @@
+{
+  "name": "todocliapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^13.1.0",
+    "nanoid": "^5.1.5",
+    "prettier": "^3.5.3",
+    "table": "^6.9.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  }
+}
